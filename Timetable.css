@@ -1,0 +1,107 @@
+body {
+    background-color: #2A2A2A;
+}
+#last_intro {
+    top: 60vw;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+#Ripped_ {
+    position: absolute;
+    top: 5vw;
+    width: 80vw;
+    height: auto;
+    transform: rotate(-0.5deg);
+    z-index: -1;
+}
+
+#OL {
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    z-index: 3;
+    
+}
+
+#OR {
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    z-index: 3;
+}
+
+#UL {
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    z-index: 3;
+}
+
+#UR {
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    z-index: 3;
+}
+
+#DOL {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    margin-top: 5vw;
+    margin-left: 40vw;
+    z-index: 2;
+}
+
+#DOR {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    margin-top: 5vw;
+    margin-left: 58vw;
+    z-index: 2;
+}
+
+#DUL {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    margin-top: 31vw;
+    margin-left: 40vw;
+    z-index: 2;
+}
+
+#DUR {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    margin-top: 31vw;
+    margin-left: 58vw;
+    z-index: 2;
+}
+
+#EX {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 18vw;
+    height: 26vw;
+    margin-top: 30vw;
+    margin-left: 9vw;
+    z-index: 2;
+}

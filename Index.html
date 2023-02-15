@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    
+ <head>
+    <link rel="Stylesheet" href="Timetable.css">
+    <title>Timetable</title>    
+</head>
+  
+<script>
+    function allowDrop(ev) {
+    ev.preventDefault();
+    }
+    
+    event.preventDefault()
+    function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text"); ev.target.appendChild(document.getElementById(data));
+    }
+</script>
+    
+<body>
+    <p id="last_intro">
+        Nice, it seems like you found all the pieces! Lets put them together.
+    </p>
+    <img id="Ripped_" src="Bilder/Notizbuch_Riss.png">
+     <img id="UL" src="Bilder/Unten_links.png" draggable="true" ondragstart="drag(event)">
+    <img id="OL" src="Bilder/Oben_links.png" draggable="true" ondragstart="drag(event)">
+    <img id="UR" src="Bilder/Unten_rechts.png" draggable="true" ondragstart="drag(event)">
+     <img id="OR" src="Bilder/Oben_rechts.png" draggable="true" ondragstart="drag(event)">
+    
+    <div id="DOL" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     <div id="DOR" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     <div id="DUL" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     <div id="DUR" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     <div id="EX" ondrop="drop(event)" ondragover="allowDrop(event)"></div
+</body>
