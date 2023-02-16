@@ -3,6 +3,9 @@
     
  <head>
     <link rel="Stylesheet" href="Timetable.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <title>Timetable</title>    
 </head>
   
@@ -24,17 +27,82 @@
     
 <body>
     <p id="last_intro">
-        Nice, it seems like you found all the pieces! Lets put them together.
+        Oh man sind das viele Termine... keine Ahnung wie ich die alle unter einen Hut bekommen soll... oder ist das machbar? Vielleicht kannst du mir ja helfen.
     </p>
-    <img id="Ripped_" src="Notizbuch_Riss.png">
-     <img id="UL" src="Unten_links.png" draggable="true" ondragstart="drag(event)">
-    <img id="OL" src="Oben_links.png" draggable="true" ondragstart="drag(event)">
-    <img id="UR" src="Unten_rechts.png" draggable="true" ondragstart="drag(event)">
-     <img id="OR" src="Oben_rechts.png" draggable="true" ondragstart="drag(event)">
+    <p id="tutorial">
+        Du kannst die Teile einfach in den Plan an die entsprechenden Stellen schieben. 
+        Fuer alle Teile, die keinen Platz finden, gibt  es Bereiche auf der rechten Seite.
+    </p>
+    <img id="Background" src="Timetable_empty%20.png">
+    <img id="Arbeit" src="Arbeit.png" draggable="true" ondragstart="drag(event)">
+    <img id="Binge" src="Binge.png" draggable="true" ondragstart="drag(event)">
+    <img id="Essen" src="Essen.png" draggable="true" ondragstart="drag(event)">
+    <img id="Film" src="Film.png" draggable="true" ondragstart="drag(event)">
+    <img id="Fired" src="Fired.png" draggable="true" ondragstart="drag(event)">
+    <img id="Foto" src="Foto.png" draggable="true" ondragstart="drag(event)">
+    <img id="Freunde" src="Freunde.png" draggable="true" ondragstart="drag(event)">
+    <img id="Grundlagen" src="Grundlagen.png" draggable="true" ondragstart="drag(event)">
+    <img id="Know_your_tools" src="Know_your_tools.png" draggable="true" ondragstart="drag(event)">
+    <img id="Kochen" src="Kochen.png" draggable="true" ondragstart="drag(event)">
+    <img id="Nickerchen1" src="Nickerchen1.png" draggable="true" ondragstart="drag(event)">
+    <img id="Nickerchen2" src="Nickerchen2.png" draggable="true" ondragstart="drag(event)">
+    <img id="Nickerchen3" src="Nickerchen3.png" draggable="true" ondragstart="drag(event)">
+    <img id="Nickerchen4" src="Nickerchen4.png" draggable="true" ondragstart="drag(event)">
+    <img id="Schlaf4" src="Schlaf%204.png" draggable="true" ondragstart="drag(event)">
+    <img id="Schlaf1" src="Schlaf1.png" draggable="true" ondragstart="drag(event)">
+    <img id="Schlaf2" src="Schlaf2.png" draggable="true" ondragstart="drag(event)">
+    <img id="Schlaf5" src="Schlaf5.png" draggable="true" ondragstart="drag(event)">
+    <img id="Spazieren1" src="Spazieren1.png" draggable="true" ondragstart="drag(event)">
+    <img id="Spazieren2" src="Spazieren2.png" draggable="true" ondragstart="drag(event)">
+    <img id="Sport1" src="Sport1.png" draggable="true" ondragstart="drag(event)">
+    <img id="Sport2" src="Sport2.png" draggable="true" ondragstart="drag(event)">
+    <img id="Training" src="Training.png" draggable="true" ondragstart="drag(event)">
+    <img id="Typo" src="Typo.png" draggable="true" ondragstart="drag(event)">
+    <img id="Uni1" src="Uni1.png" draggable="true" ondragstart="drag(event)">
+    <img id="Uni2" src="Uni2.png" draggable="true" ondragstart="drag(event)">
+    <img id="Uni3" src="Uni3.png" draggable="true" ondragstart="drag(event)">
+    <img id="Uni4" src="Uni4.png" draggable="true" ondragstart="drag(event)">
+    <img id="Uni5" src="Uni5.png" draggable="true" ondragstart="drag(event)">
+    <img id="Uni6" src="Uni6.png" draggable="true" ondragstart="drag(event)">
+    <img id="Uni7" src="Uni7.png" draggable="true" ondragstart="drag(event)">
+    <img id="Uni_big" src="Uni_big.png" draggable="true" ondragstart="drag(event)">
+    <img id="Yoga1" src="Yoga1.png" draggable="true" ondragstart="drag(event)">
+    <img id="Yoga2" src="Yoga2.png" draggable="true" ondragstart="drag(event)">
+     
     
-    <div id="DOL" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-     <div id="DOR" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-     <div id="DUL" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-     <div id="DUR" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-     <div id="EX" ondrop="drop(event)" ondragover="allowDrop(event)"></div
+    <div id="Mo1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Mo2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Mo3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Tu1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Tu2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Tu3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="We1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="We2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="We3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Th1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Th2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Th3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Fr1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Fr2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Fr3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sa1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sa2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sa3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="So1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="So2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="So3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    
+    <div id="Sp1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp12" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="Sp13" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 </body>
