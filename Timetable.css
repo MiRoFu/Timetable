@@ -553,26 +553,127 @@ body {
     position: absolute;
     width: 9vw;
     height: 8vw;
-    margin-top: 66vw;
-    margin-left: 63.5vw;
+    margin-top: 30vw;
+    margin-left: 80vw;
     z-index: 2;
+}
 
-#Sp4
+#Sp4 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 8vw;
+    margin-top: 30vw;
+    margin-left: 90vw;
+    z-index: 2;
+}
 
-#Sp5
+#Sp5 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 8vw;
+    margin-top: 38vw;
+    margin-left: 80vw;
+    z-index: 2;
+}
 
-#Sp6
+#Sp6 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 8vw;
+    margin-top: 38vw;
+    margin-left: 90vw;
+    z-index: 2;
+}
 
-#Sp7
+#Sp7 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 8vw;
+    margin-top: 46vw;
+    margin-left: 80vw;
+    z-index: 2;
+}
 
-#Sp8
+#Sp8 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 5vw;
+    margin-top: 54vw;
+    margin-left: 80vw;
+    z-index: 2;
+} 
 
-#Sp9
+#Sp9 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 5vw;
+    margin-top: 54vw;
+    margin-left: 90vw;
+    z-index: 2;
+} 
 
-#Sp10
+#Sp10 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 5vw;
+    margin-top: 59vw;
+    margin-left: 80vw;
+    z-index: 2;
+} 
 
-#S11
+#Sp11 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 5vw;
+    margin-top: 59vw;
+    margin-left: 90vw;
+    z-index: 2;
+} 
 
-#S12
+#Sp12 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 5vw;
+    margin-top: 64vw;
+    margin-left: 80vw;
+    z-index: 2;
+} 
 
-#S13
+#Sp13 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    position: absolute;
+    width: 9vw;
+    height: 5vw;
+    margin-top: 64vw;
+    margin-left: 90vw;
+    z-index: 2;
+} 
